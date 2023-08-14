@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+nav {
+    background-color: rgba(53, 232, 95, 0.324);
+}
+.kolom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.navigasi > .kolom> .kolom2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.navigasi > .kolom> .kolom2 > li> ul{
+    display: none;
+}
+.navigasi > .kolom> .kolom2 > li:hover >ul {
+    display: inline;
+    list-style-type: none;
+    font-style: normal;
+}
+.navigasi > .kolom> .kolom2 > li{
+    list-style-type: none;
+}
+.navigasi {
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+.carousel {
+    padding-top: 80px;
+}
